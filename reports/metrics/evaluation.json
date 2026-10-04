@@ -1,0 +1,41 @@
+{
+  "model_directory": "models/lightgbm",
+  "threshold": 0.053229853722525304,
+  "holdout_evaluated": true,
+  "new_training": false,
+  "metrics": {
+    "validation": {
+      "rows": 15000.0,
+      "defaults": 530.0,
+      "overall_default_rate": 0.035333333333333335,
+      "roc_auc": 0.7450338370864901,
+      "average_precision": 0.0942640371204646,
+      "brier_score": 0.033178379201012874,
+      "log_loss": 0.1397731788276,
+      "approval_rate": 0.8,
+      "approved_count": 12000.0,
+      "default_rate_approved": 0.022416666666666668,
+      "defaults_approved": 269.0,
+      "defaults_rejected": 261.0,
+      "good_rejected": 2739.0,
+      "share_defaults_rejected": 0.49245283018867925
+    },
+    "holdout": {
+      "rows": 15000.0,
+      "defaults": 501.0,
+      "overall_default_rate": 0.0334,
+      "roc_auc": 0.7343773037413689,
+      "average_precision": 0.08961261319898702,
+      "brier_score": 0.03150568428553673,
+      "log_loss": 0.13493978533089757,
+      "approval_rate": 0.8064666666666667,
+      "approved_count": 12097.0,
+      "default_rate_approved": 0.021492932131933536,
+      "defaults_approved": 260.0,
+      "defaults_rejected": 241.0,
+      "good_rejected": 2662.0,
+      "share_defaults_rejected": 0.4810379241516966
+    }
+  },
+  "target": "flag as supplied by competition; horizon not verified in archive"
+}

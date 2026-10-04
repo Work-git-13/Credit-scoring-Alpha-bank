@@ -1,0 +1,2 @@
+model,train_rows,feature_set,balance,fit_seconds,roc_auc,average_precision,brier_score,log_loss
+final_lightgbm,500000,extended,none,80.33140885100056,0.735043355804462,0.08986816177293405,0.03327442557912926,0.1410003235256961

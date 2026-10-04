@@ -1,0 +1,15 @@
+{
+  "train_rows": 2099991,
+  "train_boundary": 2099990,
+  "validation_rows": 15000,
+  "holdout_rows": 15000,
+  "holdout_evaluated": false,
+  "id_hashes": {
+    "train": "2f9ba9da4a0f39a56c7de4eb8a7d92d976d9c27468dcf76187300effdf85e7d3",
+    "validation": "1e25b84eb1c2230ff84b51c71266da0233964f26ae84fda9b16343b3f58b6c4f",
+    "holdout": "8070b67eef532d372a9ee17eac9bc2cf3af79f0e6cd059e52ca6e954455317e3"
+  },
+  "target": "flag as supplied by competition; horizon not verified in archive",
+  "vocabulary_source": "data/prepared/feature_settings.json",
+  "seed": 42
+}

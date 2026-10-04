@@ -1,0 +1,61 @@
+{
+  "model_directory": "models/lightgbm",
+  "model_parameters": {
+    "objective": "binary",
+    "metric": [
+      "auc",
+      "binary_logloss"
+    ],
+    "learning_rate": 0.05,
+    "num_leaves": 31,
+    "min_data_in_leaf": 100,
+    "lambda_l2": 3.0,
+    "feature_fraction": 0.9,
+    "scale_pos_weight": 1.0,
+    "max_bin": 63,
+    "min_data_in_bin": 5,
+    "force_col_wise": true,
+    "histogram_pool_size": 256,
+    "num_threads": 2,
+    "seed": 42,
+    "verbosity": -1
+  },
+  "threshold": 0.053229853722525304,
+  "threshold_selected_on": "validation before holdout opening",
+  "calibrated": false,
+  "holdout_evaluated": true,
+  "holdout_id_hash": "8070b67eef532d372a9ee17eac9bc2cf3af79f0e6cd059e52ca6e954455317e3",
+  "validation_metrics": {
+    "rows": 15000,
+    "defaults": 530,
+    "overall_default_rate": 0.035333333333333335,
+    "roc_auc": 0.7450338370864901,
+    "average_precision": 0.0942640371204646,
+    "brier_score": 0.033178379201012874,
+    "log_loss": 0.1397731788276,
+    "approval_rate": 0.8,
+    "approved_count": 12000,
+    "default_rate_approved": 0.022416666666666668,
+    "defaults_approved": 269,
+    "defaults_rejected": 261,
+    "good_rejected": 2739,
+    "share_defaults_rejected": 0.49245283018867925
+  },
+  "holdout_metrics": {
+    "rows": 15000,
+    "defaults": 501,
+    "overall_default_rate": 0.0334,
+    "roc_auc": 0.7343773037413689,
+    "average_precision": 0.08961261319898702,
+    "brier_score": 0.03150568428553673,
+    "log_loss": 0.13493978533089757,
+    "approval_rate": 0.8064666666666667,
+    "approved_count": 12097,
+    "default_rate_approved": 0.021492932131933536,
+    "defaults_approved": 260,
+    "defaults_rejected": 241,
+    "good_rejected": 2662,
+    "share_defaults_rejected": 0.4810379241516966
+  },
+  "target": "flag as supplied by competition; horizon not verified in archive"
+}
