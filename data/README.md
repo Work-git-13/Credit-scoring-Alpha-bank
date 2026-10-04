@@ -1,11 +1,7 @@
-# Данные
+# Raw data
 
 Источник: https://www.kaggle.com/competitions/alfa-bank-pd-credit-history/data
 
 Для просмотра сохранённого результата сырые данные не нужны. В data/evaluation лежат validation-признаки итоговой модели, validation/holdout-прогнозы, метки, ID и baseline-прогнозы. Это производные данные соревнования, не синтетические примеры.
 
-Для анализа исходных данных и нового обучения самостоятельно скачай ZIP соревнования (может потребоваться аккаунт и принятие условий) и положи его как data/raw/alfa-bank-pd-credit-history.zip. В основном блокноте включи RUN_RAW_ANALYSIS=True. Распаковка создаст data/raw/data_for_competition/ с train_data/*.pq, test_data/*.pq, description.xlsx и CSV.
-
-В облегчённом ZIP базовых таблиц data/prepared нет; .gitignore исключает их. При клонировании Git сформируй их основным блокнотом. Словарь в models/lightgbm/feature_settings.json принадлежит итоговой модели и не должен заменяться результатом новой подготовки.
-
-Перед публичным размещением производных таблиц проверь условия распространения данных соревнования. Если таблицы не публикуются, предоставь способ получения разрешённого архива: без data/evaluation быстрый запуск не воспроизводится.
+Для анализа исходных данных и нового обучения самостоятельно скачайте ZIP соревнования и положите его как data/raw/alfa-bank-pd-credit-history.zip. В основном блокноте включите RUN_RAW_ANALYSIS=True. Распаковка создаст data/raw/data_for_competition/ с train_data/*.pq, test_data/*.pq, description.xlsx и CSV.
